@@ -4,29 +4,29 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    max-width: 100vw; /* Maximum width of the viewport */
+    max-width: 100; /* Maximum width of the viewport */
     overflow-x: hidden;
 }
 
 /* Header with gradient background */
 header {
     background: linear-gradient(to bottom right, #2e003e, #ffdd00); /* Gradient from midnight purple to Lamborghini orange */
-    padding: 50px; /* Padding to create space around the text */
+    padding: 50; /* Padding to create space around the text */
     text-align: center;
     color: white; /* Text color for title and subtitle */
 }
 
 /* Style for the page title */
 header h1 {
-    font-size: 3em; /* Large title text */
+    font-size: 6; /* Large title text */
     margin: 0; /* Remove default margin */
     font-weight: bold;
 }
 
 /* Style for the subtitle */
 header .subtitle {
-    font-size: 1.5em; /* Subtitle size */
-    margin: 10px 0 0 0; /* Space above subtitle */
+    font-size: 1.5; /* Subtitle size */
+    margin: 10 0 0 0; /* Space above subtitle */
     color: white; /* Ensure subtitle text is white */
 }
 
@@ -34,24 +34,24 @@ header .subtitle {
 .photo-grid {
     display: flex; /* Arrange images side by side */
     justify-content: center; /* Center them horizontally */
-    gap: 10px; /* Add space between images */
-    padding: 20px;
+    gap: 10; /* Add space between images */
+    padding: 20;
     max-width: 100%; /* Ensure the grid takes full width */
     box-sizing: border-box;
 }
 
 .photo-grid img {
-    width: 100%; /* Ensure the image takes up 100% of the parent container */
-    max-width: 100%; /* Prevent images from exceeding container width */
+    width: 100; /* Ensure the image takes up 100% of the parent container */
+    max-width: 100; /* Prevent images from exceeding container width */
     height: auto; /* Keep the aspect ratio */
     object-fit: cover; /* Ensure the image fits nicely */
-    border-radius: 5px; /* Optional: Add rounded corners to images */
+    border-radius: 5; /* Optional: Add rounded corners to images */
     flex: 1; /* Ensures that the images take up equal width */
 }
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 20;
     background-color: #333;
     color: #fff;
 }

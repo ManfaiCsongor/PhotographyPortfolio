@@ -41,12 +41,10 @@ header .subtitle {
 }
 
 .photo-grid img {
-    width: 100; /* Ensure the image takes up 100% of the parent container */
-    max-width: 100; /* Prevent images from exceeding container width */
+    width: 500; /* Ensure the image takes up 100% of the parent container */
     height: auto; /* Keep the aspect ratio */
     object-fit: cover; /* Ensure the image fits nicely */
     border-radius: 5; /* Optional: Add rounded corners to images */
-    flex: 1; /* Ensures that the images take up equal width */
 }
 
 footer {

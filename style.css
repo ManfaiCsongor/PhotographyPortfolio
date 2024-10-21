@@ -75,3 +75,20 @@ footer {
     transform: scale(1.1); /* Slightly enlarge the text */
     color: #ff6600; /* Change color on hover */
 }
+
+/* Style for the categories section */
+#categories h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.category-list h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category-list p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}

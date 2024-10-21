@@ -1,4 +1,4 @@
-/* Ensure the body takes up the full width of the browser */
+/* General page styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,14 +8,29 @@ body {
     overflow-x: hidden;
 }
 
+/* Header with gradient background */
 header {
+    background: linear-gradient(to bottom right, #2e003e, #ffdd00); /* Gradient from midnight purple to Lamborghini orange */
+    padding: 50px; /* Padding to create space around the text */
     text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+    color: white; /* Text color for title and subtitle */
 }
 
-/* Gallery container setup */
+/* Style for the page title */
+header h1 {
+    font-size: 3em; /* Large title text */
+    margin: 0; /* Remove default margin */
+    font-weight: bold;
+}
+
+/* Style for the subtitle */
+header .subtitle {
+    font-size: 1.5em; /* Subtitle size */
+    margin: 10px 0 0 0; /* Space above subtitle */
+    color: white; /* Ensure subtitle text is white */
+}
+
+/* Styling for the photo gallery */
 .photo-grid {
     display: flex; /* Arrange images side by side */
     justify-content: center; /* Center them horizontally */
@@ -25,7 +40,6 @@ header {
     box-sizing: border-box;
 }
 
-/* Style for images */
 .photo-grid img {
     width: 100%; /* Ensure the image takes up 100% of the parent container */
     max-width: 100%; /* Prevent images from exceeding container width */
@@ -42,3 +56,9 @@ footer {
     color: #fff;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .photo-grid {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+    }
+}

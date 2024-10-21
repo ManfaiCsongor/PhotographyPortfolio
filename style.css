@@ -55,3 +55,23 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+/* Center the gallery title */
+#gallery h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style for the clickable gallery title */
+.gallery-title {
+    font-size: 2em; /* Large font size */
+    text-decoration: none; /* Remove underline from the link */
+    color: #333; /* Title color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Enlarge title on hover and change color */
+.gallery-title:hover {
+    transform: scale(1.1); /* Slightly enlarge the text */
+    color: #ff6600; /* Change color on hover */
+}

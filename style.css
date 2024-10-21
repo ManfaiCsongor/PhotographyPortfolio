@@ -55,10 +55,3 @@ footer {
     background-color: #333;
     color: #fff;
 }
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .photo-grid {
-        flex-direction: column; /* Stack images vertically on smaller screens */
-    }
-}
